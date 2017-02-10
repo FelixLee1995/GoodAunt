@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/red"
+        android:layout_height="?attr/actionBarSize"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        >
+
+        <TextView
+            android:id="@+id/itemtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="帮助与反馈"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/custom_service"
+        android:layout_marginTop="8dp"
+        android:background="@color/White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/customer_service"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="帮助"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="常见问题"
+            />
+        <com.allen.library.SuperTextView
+            android:id="@+id/problem_1"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            stv:sUseRipple="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            stv:sLeftTextString="【客户】 如何预约，修改？"
+            stv:sMaxEms="100"
+            stv:sRightIconRes="@drawable/arrow_right_red"
+            >
+
+
+        </com.allen.library.SuperTextView>
+        <com.allen.library.SuperTextView
+            android:id="@+id/problem_2"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            stv:sUseRipple="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            stv:sLeftTextString="【客户】 预约成功后，如何取消？"
+            stv:sMaxEms="100"
+            stv:sRightIconRes="@drawable/arrow_right_red"
+            >
+        </com.allen.library.SuperTextView>
+        <com.allen.library.SuperTextView
+            android:id="@+id/problem_3"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            stv:sUseRipple="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            stv:sLeftTextString="【客户】 如何查看订单状态？"
+            stv:sMaxEms="100"
+            stv:sRightIconRes="@drawable/arrow_right_red"
+            >
+        </com.allen.library.SuperTextView>
+        <com.allen.library.SuperTextView
+            android:id="@+id/problem_4"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            stv:sUseRipple="true"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            stv:sLeftTextString="【客户】 如何进行评价？"
+            stv:sMaxEms="100"
+            stv:sRightIconRes="@drawable/arrow_right_red"
+            >
+        </com.allen.library.SuperTextView>
+
+    </LinearLayout>
+
+   <com.allen.library.SuperTextView
+       android:layout_marginBottom="10dp"
+       android:id="@+id/opinion"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       stv:sCenterTextString="意见反馈"
+       stv:sCenterTextSize="18sp"
+       stv:sLeftIconRes="@drawable/opinion"
+       stv:sRightIconRes="@drawable/arrow_right_red"
+       >
+
+   </com.allen.library.SuperTextView>
+
+
+
+</LinearLayout>

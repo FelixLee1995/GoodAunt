@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/White"
+    tools:context="space.ahaha.project.LoginActivity"
+    android:orientation="vertical">
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal" />
+
+            <FrameLayout
+                android:layout_gravity="center"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/icon_bg"
+                >
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="好"
+                    android:textSize="50sp"
+                    android:textColor="@color/White"
+                    />
+
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/text_notuse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal" />
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/stroke_bg"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical"
+                >
+
+                    <ImageView
+                        android:layout_marginLeft="28dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/user"
+                        />
+                    <AutoCompleteTextView
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/gradient_box"
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:hint="手机号码"
+                        android:inputType="phone"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/stroke_bg"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+                 <ImageView
+                android:layout_marginLeft="28dp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:src="@drawable/password"
+                />
+                <EditText
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="30dp"
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:hint="密码"
+                    android:background="@drawable/gradient_box"
+                    android:imeActionId="@+id/login"
+                    android:imeActionLabel="@string/action_sign_in_short"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+        </LinearLayout>
+
+            <Button
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/email_sign_in_button"
+                style="?android:textAppearanceSmall"
+                android:background="@drawable/signin_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/action_sign_in"
+                android:textColor="@color/White"
+                android:textSize="15sp"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <ProgressBar
+                android:layout_gravity="center"
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:indeterminateDrawable="@drawable/dialog_style_xml_color"
+                android:visibility="gone"
+                />
+            <LinearLayout
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/skip"
+                    android:text="跳过登录"
+                    android:textColor="@color/icon_bg"
+                    />
+                <Button
+                    android:alpha="0"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+                <Button android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/sign_up_btn"
+                    android:background="@null"
+                    android:text="@string/action_sign_up"
+                    android:textColor="@color/icon_bg"
+                    />
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ctv="http://schemas.android.com/apk/res-auto"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/snow">
+
+    <com.allen.library.CommonTextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginBottom="8dp"
+    ctv:cCenterIconResForDrawableTop="@drawable/scatter_use"
+    ctv:cCenterTextString="订单时间"
+    ctv:cLeftIconResForDrawableTop="@drawable/scatter_type"
+    ctv:cLeftTextString="订单名称"
+    ctv:cRightIconResForDrawableTop="@drawable/scatter_time"
+    ctv:cRightTextString="订单状态" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/list_divider"/>
+
+    <com.baoyz.widget.PullRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.baoyz.widget.PullRefreshLayout>
+</LinearLayout>

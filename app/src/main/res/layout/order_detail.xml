@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ctv="http://schemas.android.com/apk/res-auto"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/order_detail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        stv:sBottomLineMargin="0dp"
+        />
+    <com.allen.library.SuperTextView
+        android:id="@+id/order_id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        stv:sBottomLineMargin="0dp"
+        stv:sLeftTextString="订单号：" />
+    <com.allen.library.SuperTextView
+        android:id="@+id/order_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        stv:sBottomLineMargin="0dp"
+        stv:sLeftTextString="订单状态：" />
+    <com.allen.library.SuperTextView
+        android:id="@+id/order_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        stv:sBottomLineMargin="0dp"
+        stv:sLeftTextString="下单时间：" />
+    <com.allen.library.CommonTextView
+        android:id="@+id/order_address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        ctv:cLeftTextString="工作地址"
+        ctv:cRightIconResForDrawableRight="@drawable/arrow_right_red"
+        ctv:cRightTextColor="@color/colorAccent"
+        ctv:cShowDividerLineType="both"
+        ctv:cUseRipple="true" />
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/order_worktime"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        stv:sBottomLineMargin="0dp"
+        stv:sLeftTextString="预计开始工作时间：" />
+
+
+    <com.allen.library.CommonTextView
+        android:id="@+id/order_aunt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        ctv:cLeftTextString="阿姨信息："
+        ctv:cRightIconResForDrawableRight="@drawable/arrow_right_red"
+        ctv:cRightTextColor="@color/colorAccent"
+        ctv:cShowDividerLineType="both"
+        ctv:cUseRipple="true" />
+    <com.allen.library.SuperTextView
+        android:id="@+id/order_start_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        stv:sBottomLineMargin="0dp"
+        stv:sLeftTextString="阿姨工作开始时间：" />
+    <com.allen.library.SuperTextView
+        android:id="@+id/order_finished_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        stv:sBottomLineMargin="0dp"
+        stv:sLeftTextString="阿姨工作结束时间：" />
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/order_money"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        stv:sBottomLineMargin="0dp"
+        stv:sLeftTextString="服务金额：" />
+    <com.allen.library.CommonTextView
+        android:id="@+id/order_star"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        ctv:cLeftTextString="服务评价："
+        ctv:cRightIconResForDrawableRight="@drawable/arrow_right_red"
+        ctv:cRightTextColor="@color/colorAccent"
+        ctv:cShowDividerLineType="both"
+        ctv:cUseRipple="true" />
+
+</LinearLayout>

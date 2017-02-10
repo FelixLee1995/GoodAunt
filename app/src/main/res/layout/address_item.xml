@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F4F4F4">
+
+
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/address_item"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        stv:sLeftTopTextString="李枫"
+        stv:sMaxEms="30"
+        stv:sLeftBottomTextString="江苏省苏州市姑苏区平江街道苏州大学"
+        stv:sRightTextString="18351036226"
+        stv:sCenterSpaceHeight="8dp"
+        stv:sUseRipple="true"
+        stv:sIsChecked="true"
+        >
+
+
+
+    </com.allen.library.SuperTextView>
+
+</LinearLayout>

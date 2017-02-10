@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">好好阿姨</string>
+    <string name="action_settings">Settings</string>
+    <string name="rcbj">日常保洁</string>
+    <string name="rcbjinfo">您随叫随到的日常清洁小帮手</string>
+    <string name="dsc">大扫除</string>
+    <string name="dscinfo">让您的家焕然一新的必备方法</string>
+    <string name="sfby">沙发保养</string>
+    <string name="sfbyinfo">还您一个美丽如初、洁净如新的沙发</string>
+    <string name="dbdl">地板打蜡</string>
+    <string name="dbdlinfo">清除地板顽固污渍，给您一个亮丽光洁的地面</string>
+    <string name="title_activity_item">Item</string>
+    <string name="dummy_text1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</string>
+    <string name="title_activity_order_detail">OrderDetail</string>
+    <string name="title_activity_set_order">SetOrderActivity</string>
+
+    <string name="prompt_email">       Account</string>
+    <string name="prompt_password">       Password </string>
+    <string name="action_sign_in">登 录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_forget_password">忘记密码? </string>
+    <string name="action_sign_up">注册</string>
+    <string name="error_invalid_phone">手机号码不正确</string>
+    <string name="error_invalid_pwd">密码格式不正确</string>
+    <string name="error_invalid_auth_code">验证码不正确</string>
+    <string name="empty_pwd">请输入密码！</string>
+    <string name="empty_phone">请输入手机号码！</string>
+    <string name="empty_auth_code">请输入验证码！</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="pwd_hint">字母或数字，8-12位</string>
+    <string name="quick_sign_up">快速注册</string>
+    <string name="phone">手机号</string>
+    <string name="auth_code">验证码</string>
+    <string name="get_auth_code">获取验证码</string>
+    <string name="fail_to_receive">没有收到？</string>
+    <string name="sign_up_now">立即注册</string>
+    <string name="click_info">点击注册，即表示您同意</string>
+    <string name="agreement">《好好阿姨使用协议》</string>
+    <string name="password">密码</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="problem_title_1">如何预约，修改？</string>
+    <string name="problem_title_2">预约成功后，如何取消？</string>
+    <string name="problem_title_3">如何查看订单状态？</string>
+    <string name="problem_title_4">如何进行评价？</string>
+    <string name="problem_1">主页提供日常保洁、大扫除、真皮沙发保养、地板打蜡四个服务，点击进入相应的服务界面。\n了解服务内容与价格后，点击下方“我要预约”按钮，进入创建订单页面。\n订单创建完成即预约成功。\n成功预约后，如果想更改服务类型或服务时间，点击下方Order，显示订单页面。\n订单页面逐条显示历史订单，包括已完成订单与未完成订单。点击未完成订单进行修改即可。\n</string>
+    <string name="problem_2">成功预约后，如果想取消订单，点击下方Order，显示订单页面。\n订单页面逐条显示历史订单，包括已完成订单与未完成订单。点击未完成订单进行取消即可。\n</string>
+    <string name="problem_3">点击下方Order，显示订单页面。\n订单页面显示3列，订单名称、订单详情、订单状态。在订单状态下显示订单的状态，已完成或未完成。\n点击某一订单，可进入详情页查看订单详细信息。\n</string>
+    <string name="problem_4">当阿姨完成服务后，可以对阿姨进行评价。评价分为5个等级，用1至5颗星表示。每提出一个有效评价，用户本人增加5点积分。\n点击下方Order，显示订单页面。\n点击某一订单，进入详情页。在详情页中点击“我要评价”按钮，对阿姨进行评价。\n</string>
+    <string name="agreement_content">   1. 好好阿姨服务条款的确认\n
+好好阿姨的所有权与苏州大学计算机科学与技术学院所有。本服务条款具有法律约束力。一旦您点选 "注册"并通过注册程序，即表示您自愿接受本协议之所有条款，并已成为好好阿姨的注册会员。
+用户在享用好好阿姨会员服务的同时，同意接受好好阿姨会员服务提供的各类信息服务。\n\n
+2. 服务内容\n
+好好阿姨服务的具体内容由阿姨和用户协商，根据实际情况提供。
+本公司在好好阿姨上向其会员提供相关网络服务，与相关网络服务有关的设备（如个人电脑、手机、及其他与接入互联网或移动网有关的装置）及所需的费用（如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费）均由会员自行负担。\n\n
+3．会员帐号及密码\n
+您注册会员成功后，将得到一个帐号和密码。您应妥善保管该帐号及密码，并对以该帐号进行的所有活动及事件负法律责任。因黑客行为或会员保管疏忽致使帐号、密码被他人非法使用的，本公司不承担任何责任。如您发现任何非法使用会员帐号或安全漏洞的情况，请立即与公司管理人员联系。\n\n
+4．会员权责\n
+会员有权按照公司规定的程序和要求使用好好阿姨向会员提供的各项网络服务，如果会员对该服务有异议，可以与好好阿姨工作人员联系以便得到及时解决。\n
+用户在申请使用好好阿姨网络服务时，必须向好好阿姨提供准确的个人资料，如个人资料有任何变动，必须及时更新。\n
+会员同意接受好好阿姨通过电子邮件、短信或其他方式向会员发送的预订确认信息、以及其他预订产品或服务相关的信息。会员同意接受好好阿姨通过电子邮件、短信或其他方式向会员发送的促销或其他商业信息，如会员不同意接受促销或其他商业信息，会员可以自行退订或电话联系好好阿姨进行退订。\n
+会员在好好阿姨的网页上发布信息或者利用好好阿姨的服务时必须符合国家的法律法规以及国际法的有关规定。\n
+对于会员通过好好阿姨网上消息平台（包括但不限于论坛、BBS、评论）上传到好好阿姨网站上可公开获取区域的任何内容，会员同意授予本公司在全世界范围内享有完全的、免费的、永久性的、不可撤销的、非独家的权利，以及再许可第三方的权利，以使用、复制、修改、改编、出版、翻译、据以创作衍生作品、传播、表演和展示此等内容（整体或部分），和/或将此等内容编入当前已知的或以后开发的其他任何形式的作品、媒体或技术中。\n
+会员承诺不会在好好阿姨的消息平台（包括但不限于论坛、BBS、评论）发布如下信息：\n
+反对宪法所确定的基本原则的；\n
+危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；\n
+损害国家荣誉和利益的；\n
+煽动民族仇恨、民族歧视，破坏民族团结的；\n
+破坏国家宗教政策，宣扬邪教和封建迷信的；\n
+散布谣言，扰乱社会秩序，破坏社会稳定的；\n
+散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；\n
+侮辱或者诽谤他人，侵害他人合法权益的；\n
+含有法律、行政法规禁止的其他内容的。\n
+会员单独为其发布在好好阿姨上信息承担责任。会员若在好好阿姨散布和传播违法信息，网络会员服务的系统记录有可能作为会员违法之证据。\n
+会员不得利用本站的服务从事以下活动：\n
+未经允许，进入计算机信息网络或者使用计算机信息网络资源；\n
+未经允许，对计算机信息网络功能进行删除、修改或者增加；\n
+未经允许，对进入计算机信息网络中存储、处理或者传输的数据和应用程序进行删除、修改或者增加；\n
+故意制作、传播计算机病毒等破坏性程序；\n
+其他危害计算机信息网络安全的行为。\n
+会员不得以任何方式干扰本站的服务。\n
+会员承诺遵守本站的所有其他规定和程序。\n
+如果会员违反上述规定，本公司有权要求其改正或直接采取一切必要措施（包括但不限于更改或删除会员发布的信息、中断或终止会员使用网络的权利等），以减轻会员不当行为所造成的影响。\n\n
+5．服务条款的修改\n
+本公司有权在必要时修改本服务条款而无需事先通知用户。本公司行使该修改权，无需对用户或第三方承担任何责任。 会员如不同意修改，可以主动选择取消会员资格；如果会员继续使用好好阿姨服务，将被视为接受修改后的服务条款。\n\n
+6．服务内容的修改或中断\n
+鉴于网络服务的特殊性，本公司保留随时修改或中断其部分或全部网络服务的权利，并无需通知会员或为此对会员及任何第三方负责。\n\n
+7．会员隐私保护\n
+本公司尊重会员的隐私权，不会公开、编辑或泄露任何有关会员的个人资料以及会员在使用网络服务时存储在好好阿姨的非公开内容，但以下情况除外：\n
+事先获得会员的明确授权；\n
+遵守法律规定或好好阿姨合法服务程序；\n
+按照相关政府主管部门的合理要求；\n
+维护社会公众利益；\n
+维护本公司的合法权益；\n
+符合其他合法要求。\n\n
+8．中断或终止服务\n
+如发生下列任何一种情形，本公司有权随时中断或终止向会员提供本协议项下的网络服务，而无需对会员或任何第三方承担任何责任。\n
+会员向本公司提供的个人资料不真实。\n
+会员违反本协议的规则或不履行其所承担的义务。\n
+除此之外，会员可随时根据需要通知本公司终止向该会员提供服务，会员服务终止后，会员使用服务的权利同时终止。自会员服务终止之时起，好好阿姨不再对该会员承担任何责任。\n\n
+9．知识产权\n
+本公司在网络服务中提供的任何文本、图片、图形、音频和视频资料均受版权、商标权以及其他相关法律法规的保护。未经本公司事先同意，任何人不能擅自复制、传播这些内容，或用于其他任何商业目的，所有这些资料或资料的任何部分仅可作为个人或非商业用途而保存在某台计算机内。\n
+本公司为提供网络服务而使用的任何软件（包括但不限于软件中的任何文字、图形、音频、视频资料及其辅助资料）的一切权利属于该软件的著作权人，未经该著作权人同意，任何人不得对该软件进行反向工程、反向编译或反汇编。\n
+如有著作权人发现会员在好好阿姨发表的内容侵犯其著作 权，并依《互联网著作权行政保护办法》、《信息网络传播保护条例》的规定向本公司发出书面通知并提供相关内容的著作权权属证明的，本公司有权在不事先通知会员的情况下自行移除相关内容，并依法保留相关数据。\n
+若会员对9.3条指向内容依法享有发表权，可以向本公司及9.3条指向之著作权人一并发出说明被移除内容不侵犯其著作权的反通知，反通知应为书面形式，并包含如下内容：\n
+明确的身份证明、住址、联系方式；\n
+被移除内容的合法性证明；\n
+被移除内容在互联网上的位置；\n
+反通知内容的真实性声明。\n
+符合规定的反通知发出后，本公司有权恢复被移除内容。\n\n
+10．免责声明\n
+本公司对任何因会员不正当或非法使用服务、在网上进行交易、或会员传送信息变动而产生的直接、间接、偶然、特殊及后续的损害不承担责任。\n
+本公司对任何他人的威胁性的、诽谤性的、淫秽的、令人反感的或非法的内容或行为或对他人权利的侵犯（包括知识产权）不承担责任；并对任何第三方通过服务发送或在服务中包含的任何内容不承担责任。\n
+会员明确同意其使用好好阿姨服务所存在的风险以及使用好好阿姨服务产生的一切后果由其自己承担。\n
+对于因不可抗力或好好阿姨不能控制的原因造成的网络服务中断或其它缺陷，好好阿姨不承担任何责任，但将尽力减少因此而给用户造成的损失和影响。\n
+本公司不对所提供之网络服务做任何类型之担保，包括但不限于：\n
+网络服务一定能满足会员要求；\n
+网络服务不会中断；\n
+网络服务的及时性、安全性、准确性。\n
+但是本公司对不违反规定的特定目的担保不作限制。\n\n
+11．赔偿\n
+因会员对本服务之使用而导致本公司遭受任何来自第三方之纠纷、诉讼及索赔要求，会员同意向本公司及其关联企业、职员赔偿相应损失（包括合理的律师费），并尽力使之免受损害。\n\n
+12．通告\n
+所有发给会员的通告都可以通过重要页面的公告、电子邮件以及常规信件的形式传送。\n\n
+13．法律\n
+本公司服务条款之效力、解释、执行均适用中华人民共和国法律。如发生争议，应提交至有管辖权之人民法院。\n\n
+14．其他规定\n
+本服务条款中的标题仅为方便而设，在解释本服务条款时应被忽略。\n\n
+
+
+
+</string>
+    <string name="about_us">                             好好阿姨    当前版本1.0\n\n
+
+                                           企划\n
+                                       第八小队\n\n
+
+                                          制作\n
+                                       第八小队\n\n
+
+                                          代码\n
+                                 罗恒恒  王顺  李枫\n\n
+                                  美术设计及其他\n
+                                   黄彦芸   张小菲\n\n
+                                          感谢\n
+                                      苏州大学\n\n
+                                          监督\n
+                                      韩冬老师\n\n</string>
+</resources>

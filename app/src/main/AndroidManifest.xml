@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="space.ahaha.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="Android:icon, android:theme">
+        <activity
+            android:name=".Loading"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AccountManagement" />
+        <activity
+            android:name=".Item"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Modify_pwd" />
+        <activity android:name=".AddressManagement" />
+        <activity android:name=".AddAddress" />
+        <activity android:name=".ChooseProvince" />
+        <activity android:name=".ChooseCity" />
+        <activity android:name=".ChooseDistrict" />
+        <activity android:name=".ModifyAddress" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Info" />
+        <activity android:name=".CommitFeedback" />
+        <activity
+            android:name=".SetOrderActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".About_us" />
+        <activity android:name=".Agreement" />
+    </application>
+
+</manifest>

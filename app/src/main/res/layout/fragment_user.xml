@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/snow">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:paddingBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/White"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/dsc" />
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp">
+                        <Button
+
+                            android:background="@null"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:id="@+id/status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="未登录"
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+            </LinearLayout>
+
+
+            <com.allen.library.SuperTextView
+                stv:sLeftIconRes="@drawable/management"
+                android:id="@+id/account_management"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                stv:sUseRipple="true"
+                stv:sLeftTextString="帐号管理"
+                stv:sRightIconRes="@drawable/arrow_right_red" />
+            <com.allen.library.SuperTextView
+                android:id="@+id/address_management"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:clickable="true"
+                stv:sUseRipple="true"
+                stv:sLeftIconRes="@drawable/uu"
+                stv:sBottomLineMargin="0dp"
+                stv:sLeftTextString="管理地址"
+                stv:sRightIconRes="@drawable/arrow_right_red" />
+
+
+
+
+
+
+            <com.allen.library.SuperTextView
+                android:id="@+id/feedback"
+                stv:sLeftIconRes="@drawable/help"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                stv:sUseRipple="true"
+                stv:sLeftTextString="帮助与反馈"
+                stv:sRightIconRes="@drawable/arrow_right_red" />
+            <com.allen.library.SuperTextView
+                android:id="@+id/info"
+                stv:sLeftIconRes="@drawable/info"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                stv:sUseRipple="true"
+                stv:sLeftTextString="关于好好阿姨"
+                stv:sRightIconRes="@drawable/arrow_right_red" />
+            <!--<com.allen.library.SuperTextView-->
+                <!--android:id="@+id/setting"-->
+                <!--stv:sLeftIconRes="@drawable/setting"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:clickable="true"-->
+                <!--stv:sUseRipple="true"-->
+                <!--stv:sLeftTextString="设置中心"-->
+                <!--stv:sRightIconRes="@drawable/arrow_right_red" />-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/snow">
+
+    <com.allen.library.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        stv:sLeftBottomTextColor2="@color/colorAccent"
+        stv:sLeftBottomTextString="2016/12/13"
+        stv:sLeftBottomTextString2="14:27>>"
+        stv:sLeftIconRes="@drawable/ic_action_mail"
+        stv:sLeftTopTextString="系统信息"
+        stv:sRightCheckBoxRes="@drawable/circular_check_bg"
+        stv:sRightCheckBoxShow="true" />
+
+    <com.allen.library.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        stv:sLeftBottomTextColor2="@color/colorAccent"
+        stv:sLeftBottomTextString2="14:27>>"
+        stv:sLeftBottomTextString="2016/12/13"
+        stv:sLeftIconRes="@drawable/ic_action_sms"
+        stv:sLeftTopTextString="用户信息"
+        stv:sRightCheckBoxRes="@drawable/circular_check_bg"
+        stv:sRightCheckBoxShow="true" />
+
+    <com.allen.library.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        stv:sLeftBottomTextColor2="@color/colorAccent"
+        stv:sLeftBottomTextString="2016/12/13"
+        stv:sLeftBottomTextString2="14:27>>"
+        stv:sLeftIconRes="@drawable/ic_action_mail"
+        stv:sLeftTopTextString="系统信息"
+        stv:sRightCheckBoxRes="@drawable/circular_check_bg"
+        stv:sRightCheckBoxShow="true" />
+
+    <com.allen.library.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        stv:sLeftBottomTextColor2="@color/colorAccent"
+        stv:sLeftBottomTextString2="14:27>>"
+        stv:sLeftBottomTextString="2016/12/13"
+        stv:sLeftIconRes="@drawable/ic_action_sms"
+        stv:sLeftTopTextString="用户信息"
+        stv:sRightCheckBoxRes="@drawable/circular_check_bg"
+        stv:sRightCheckBoxShow="true" />
+</LinearLayout>

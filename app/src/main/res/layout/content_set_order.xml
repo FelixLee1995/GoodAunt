@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_set_order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="space.ahaha.project.SetOrderActivity"
+    tools:showIn="@layout/activity_set_order">
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/order_start_time"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:layout_below="@id/spinner"
+        stv:sUseRipple="true"
+        stv:sBottomLineMargin="0dp"
+        stv:sLeftIconRes="@drawable/scatter_use"
+        stv:sLeftTextString="选择工作开始时间："
+        />
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/order_address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:layout_below="@id/order_start_time"
+        stv:sUseRipple="true"
+        stv:sLeftIconRes="@drawable/uu"
+        stv:sBottomLineMargin="0dp"
+        stv:sLeftTextString="工作地址" >
+    </com.allen.library.SuperTextView>
+
+    <com.allen.library.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/setOrder"
+        android:clickable="true"
+        stv:sUseRipple="true"
+        stv:sCenterTextString="确认订单"
+        stv:sLeftIconRes="@drawable/balance_icon"
+        stv:sCenterTextSize="20sp"
+        stv:sLeftTopTextString="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="@drawable/dialog_top"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:hint="有什么需要备注的吗？"
+            android:textSize="14sp"
+            android:padding="5dp"
+            android:gravity="top"
+            android:maxLength="100"
+            />
+    </LinearLayout>
+
+    <ProgressBar
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:id="@+id/loading_process_dialog_progressBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:indeterminate="false"
+    android:indeterminateDrawable="@drawable/dialog_style_xml_color"
+    android:visibility="gone"
+    />
+</RelativeLayout>
